@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitHub Top Android Repositories</string>
+    <string name="retry">retry</string>
+    <string name="exception_message_generic">There was an application error!</string>
+    <string name="exception_message_no_connection">There is no internet connection!</string>
+    <string name="exception_message_socket_timeout">Socket Timeout! Please try again!</string>
+</resources>
