@@ -130,5 +130,10 @@ public class GithubRepositoryListPresenter extends MvpPresenter<GithubRepository
         return message;
     }
 
-
+    @Override
+    public void onDestroy() {
+        mDisposable.dispose();
+        App.getApp().clearGithubRepositoryListComponent();
+        super.onDestroy();
+    }
 }
